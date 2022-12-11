@@ -1,5 +1,5 @@
-const Issue = require("../models/Issue");
-const Project = require("../models/Project");
+const Issue = require("../models/issue");
+const Project = require("../models/project");
 
 module.exports.create = async function (req, res) {
   const { title, description, labels, author, project } = req.body;

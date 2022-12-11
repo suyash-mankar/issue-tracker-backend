@@ -1,4 +1,4 @@
-const Project = require("../models/Project");
+const Project = require("../models/project");
 
 module.exports.create = function (req, res) {
   const { name, description, author } = req.body;

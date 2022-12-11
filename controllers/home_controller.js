@@ -1,4 +1,4 @@
-const Project = require("../models/Project");
+const Project = require("../models/project");
 
 module.exports.home = function (req, res) {
   // find all the projects
