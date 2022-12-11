@@ -1,10 +1,13 @@
 require("dotenv").config();
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = 8000;
 
 const bodyParser = require("body-parser");
 const db = require("./config/mongoose");
+
+app.use(cors());
 
 // use bodyparser
 app.use(bodyParser.json());
